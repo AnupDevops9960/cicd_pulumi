@@ -4,7 +4,7 @@ import pulumi
 from pulumi_aws import s3
 
 # Create an AWS resource (S3 Bucket)
-bucket = s3.BucketV2('anup11225bucket')
+bucket = s3.BucketV2('anuphcl11225bucket')
 
 # Export the name of the bucket
 pulumi.export('bucket_name', bucket.id)
